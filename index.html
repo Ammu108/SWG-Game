@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+          <h2>Snake, Water Or Gun</h2>
+        </div>
+        <div class="game-box">
+          <div class="image-container">
+            <div class="image">
+              <img src="https://static.vecteezy.com/system/resources/previews/025/434/771/original/kids-drawing-cartoon-illustration-bullets-gun-pistol-icon-isolated-on-white-background-vector.jpg" id="gun-img" class="img" alt="Gun">
+            </div>
+            <div class="image">
+              <img src="https://c8.alamy.com/comp/H4F0XA/an-illustration-of-a-cute-cartoon-snake-H4F0XA.jpg" id="snake-img" class="img" alt="Snake">
+            </div>
+            <div class="image">
+              <img src="https://c8.alamy.com/comp/2BX00EB/glass-of-water-mascot-with-thumbs-up-a-cartoon-illustration-of-a-glass-of-water-mascot-with-a-thumbs-up-2BX00EB.jpg" id="water-img" class="img" alt="Water">
+            </div>
+          </div>
+    
+          <div class="choosing-box">
+            <h4 class="choice-label">Your Choice : </h4>
+            <input type="text" id="user-input" class="choice-range" placeholder="Choose Snake, Water or Gun">
+            <div class="comp-choosing-box">
+              <h4 class="comp-choice-label">Computer Choice : </h4>
+              <input type="text" id="comp-input" class="comp-choice-range" placeholder="Snake, Water or Gun">
+            </div>
+          </div>
+    
+          <div class="result-buttons">
+            <button id="go-btn">Go</button>
+            <button id="playAgain-btn">Play Again</button>
+          </div>
+    
+          <div class="results hidden" id="result">
+            <h2 id="result-win">Congratulations, You Win.</h2>
+          </div>
+        </div>
+      </div>
+    <script src="script.js"></script>
+</body>
+</html>
